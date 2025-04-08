@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "activities.html",
+    "href": "activities.html",
+    "title": "Activities",
+    "section": "",
+    "text": "Activities\nActivities suitable for tutorials, with companion interactives where relevant.\n\n\n\n\n🛠️ Foundations\nAvailable from: 21 April, 2025\n\n\n\n\n🛠️ Proof\nAvailable from: 05 May, 2025\n\n\n\n\n🛠️ Counting\nAvailable from: 19 May, 2025\n\n\n\n\n🛠️ Uncertainty\nAvailable from: 02 June, 2025\n\n\n\n\n🛠️ Structures\nAvailable from: 16 June, 2025\n\n\n\n\n🛠️ Numbers\nAvailable from: 30 June, 2025\n\n\n\n\n🛠️ Graphs\nAvailable from: 14 July, 2025"
+  },
+  {
+    "objectID": "activities/01-foundations/index.html",
+    "href": "activities/01-foundations/index.html",
+    "title": "🛠️ Foundations",
+    "section": "",
+    "text": "🛠️ Foundations\nActivities for the Foundations chapter."
+  },
+  {
+    "objectID": "activities/06-numbers/index.html",
+    "href": "activities/06-numbers/index.html",
+    "title": "🛠️ Numbers",
+    "section": "",
+    "text": "🛠️ Numbers\nActivities for the Numbers chapter."
+  },
+  {
+    "objectID": "activities/04-uncertainty/index.html",
+    "href": "activities/04-uncertainty/index.html",
+    "title": "🛠️ Uncertainty",
+    "section": "",
+    "text": "🛠️ Uncertainty\nActivities for the Uncertainty chapter."
+  },
+  {
+    "objectID": "contrib.html",
+    "href": "contrib.html",
+    "title": "Contributors",
+    "section": "",
+    "text": "Contributors\nA list of contributors will be added here soon."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Discrete Mathematics Companion Website",
+    "section": "",
+    "text": "Welcome to the companion website for the Discrete Mathematics textbook1.\nI look forward to feedback on the book as I try to cobble together a first draft over summer. My motivation for writing this book is mainly that teaching Discrete Mathematics at the undergraduate level — and related graduate-level courses like Combinatorics and Graph Theory — has been one of the most rewarding experiences I’ve had.\nDiscrete Mathematics at the undergraduate level is often taught with a dedicated tutorial slot. Over the years, I have had a lot of fun drawing inspiration from several sources to turn the tutorial sessions into hands-on activities. In particular, I’ve found that playing games, solving puzzles, discussing paradoxes, and performing card magic are engaging ways to revisit and apply ideas from the lectures.\nThe topics of this course also offer a good opportunity to appreciate historical context: the development of many things we now take for granted, whether number systems or paradox-inducing axioms, came about over long periods of deliberations and debate. The role of mathematicians in ancient India in some of these themes is also a matter of intrigue and beauty.\nDiscrete Mathematics is often assigned to the semester where students are also introduced to some flavors of data structures and algorithms, which in turn usually has a lab component. I believe that with a little planning, it is possible to bring out synergies between these courses.\nThrough this book I hope to bring out the elements that have made DM one of my favorite courses to teach. I will be rolling out a chapter every week over summer, starting from the 21st of April. There are seven chapters, each in two parts: the first covers core material that would be suitable for roughly four lectures, and while the extras cover additional trivia and sometimes advanced material suitable for self-study. This companion website will also be used to host interactive demonstrations for some of the activities in the book.\nPlease drop your details on the updates page to recieve an email notification when a new chapter is available."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Discrete Mathematics Companion Website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\ncurrently work in progress↩︎"
+  },
+  {
+    "objectID": "chapters/01-foundations-extras.html",
+    "href": "chapters/01-foundations-extras.html",
+    "title": "[Pitstop] Foundations",
+    "section": "",
+    "text": "Foundations Extras\nAdditional content and exercises for the Foundations chapter."
+  },
+  {
+    "objectID": "chapters/02-proof-extras.html",
+    "href": "chapters/02-proof-extras.html",
+    "title": "[Pitstop] Proof",
+    "section": "",
+    "text": "Proof Extras\nAdditional content and exercises for the Proof chapter."
+  },
+  {
+    "objectID": "chapters/05-structures-extras.html",
+    "href": "chapters/05-structures-extras.html",
+    "title": "[Pitstop] Structures",
+    "section": "",
+    "text": "Structures Extras\nAdditional content and exercises for the Structures chapter."
+  },
+  {
+    "objectID": "chapters/05-structures.html",
+    "href": "chapters/05-structures.html",
+    "title": "[Journey] Structures",
+    "section": "",
+    "text": "Structures\nContent for the Structures chapter goes here."
+  },
+  {
+    "objectID": "chapters/04-uncertainty.html",
+    "href": "chapters/04-uncertainty.html",
+    "title": "[Journey] Uncertainty",
+    "section": "",
+    "text": "Uncertainty\nContent for the Uncertainty chapter goes here."
+  },
+  {
+    "objectID": "chapters/03-counting-extras.html",
+    "href": "chapters/03-counting-extras.html",
+    "title": "[Pitstop] Counting",
+    "section": "",
+    "text": "Counting Extras\nAdditional content and exercises for the Counting chapter."
+  },
+  {
+    "objectID": "chapters/06-numbers-extras.html",
+    "href": "chapters/06-numbers-extras.html",
+    "title": "[Pitstop] Numbers",
+    "section": "",
+    "text": "Numbers Extras\nAdditional content and exercises for the Numbers chapter."
+  },
+  {
+    "objectID": "chapters.html",
+    "href": "chapters.html",
+    "title": "Chapters",
+    "section": "",
+    "text": "Chapters\nOn the chapter pages, as we go along, I will post a draft PDF + a summary of the main highlights.\n\n🛣️ Journey🎁 Pitstops\n\n\n\n\n\nFoundations\nAvailable from: 21 April, 2025\n\n\n\n\nProof\nAvailable from: 05 May, 2025\n\n\n\n\nCounting\nAvailable from: 19 May, 2025\n\n\n\n\nUncertainty\nAvailable from: 02 June, 2025\n\n\n\n\nStructures\nAvailable from: 16 June, 2025\n\n\n\n\nNumbers\nAvailable from: 30 June, 2025\n\n\n\n\nGraphs\nAvailable from: 14 July, 2025\n\n\n\n\n\n\n\n\nExtras: Foundations\nAvailable from: 28 April, 2025\n\n\n\n\nExtras: Proof\nAvailable from: 12 May, 2025\n\n\n\n\nExtras: Counting\nAvailable from: 26 May, 2025\n\n\n\n\nExtras: Uncertainty\nAvailable from: 09 June, 2025\n\n\n\n\nExtras: Structures\nAvailable from: 23 June, 2025\n\n\n\n\nExtras: Numbers\nAvailable from: 07 July, 2025\n\n\n\n\nExtras: Graphs\nAvailable from: 21 July, 2025"
+  },
+  {
+    "objectID": "chapters/01-foundations.html",
+    "href": "chapters/01-foundations.html",
+    "title": "[Journey] Foundations",
+    "section": "",
+    "text": "Foundations\nContent for the Foundations chapter goes here."
+  },
+  {
+    "objectID": "chapters/06-numbers.html",
+    "href": "chapters/06-numbers.html",
+    "title": "[Journey] Numbers",
+    "section": "",
+    "text": "Numbers\nContent for the Numbers chapter goes here."
+  },
+  {
+    "objectID": "chapters/02-proof.html",
+    "href": "chapters/02-proof.html",
+    "title": "[Journey] Proof",
+    "section": "",
+    "text": "Proof\nContent for the Proof chapter goes here."
+  },
+  {
+    "objectID": "chapters/04-uncertainty-extras.html",
+    "href": "chapters/04-uncertainty-extras.html",
+    "title": "[Pitstop] Uncertainty",
+    "section": "",
+    "text": "Uncertainty Extras\nAdditional content and exercises for the Uncertainty chapter."
+  },
+  {
+    "objectID": "chapters/03-counting.html",
+    "href": "chapters/03-counting.html",
+    "title": "[Journey] Counting",
+    "section": "",
+    "text": "Counting\nContent for the Counting chapter goes here."
+  },
+  {
+    "objectID": "chapters/07-graphs-extras.html",
+    "href": "chapters/07-graphs-extras.html",
+    "title": "[Pitstop] Graphs",
+    "section": "",
+    "text": "Graphs Extras\nAdditional content and exercises for the Graphs chapter."
+  },
+  {
+    "objectID": "chapters/07-graphs.html",
+    "href": "chapters/07-graphs.html",
+    "title": "[Journey] Graphs",
+    "section": "",
+    "text": "Graphs\nContent for the Graphs chapter goes here."
+  },
+  {
+    "objectID": "updates.html",
+    "href": "updates.html",
+    "title": "Updates",
+    "section": "",
+    "text": "Updates\n\n\nEnter your email \nFull Name \nAffiliation \nI am…  Select an option a high school student an undergraduate student a postgraduate student faculty an industry professional self-employed other \n  My name and affiliation, as presented in this form, will be added to the list of contributors. \n\n\n\n  Thank you for subscribing!\n  Please check your email to confirm your subscription. You'll receive an email with a confirmation link that you need to click to complete the subscription process.\n  You'll receive notifications when new chapters become available."
+  },
+  {
+    "objectID": "activities/02-proof/index.html",
+    "href": "activities/02-proof/index.html",
+    "title": "🛠️ Proof",
+    "section": "",
+    "text": "🛠️ Proof\nActivities for the Proof chapter."
+  },
+  {
+    "objectID": "activities/05-structures/index.html",
+    "href": "activities/05-structures/index.html",
+    "title": "🛠️ Structures",
+    "section": "",
+    "text": "🛠️ Structures\nActivities for the Structures chapter."
+  },
+  {
+    "objectID": "activities/07-graphs/index.html",
+    "href": "activities/07-graphs/index.html",
+    "title": "🛠️ Graphs",
+    "section": "",
+    "text": "🛠️ Graphs\nActivities for the Graphs chapter."
+  },
+  {
+    "objectID": "activities/03-counting/index.html",
+    "href": "activities/03-counting/index.html",
+    "title": "🛠️ Counting",
+    "section": "",
+    "text": "🛠️ Counting\nActivities for the Counting chapter."
+  }
+]
