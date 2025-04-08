@@ -9,5 +9,5 @@ Activities for the Numbers chapter.
 <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
 <hyvor-talk-comments
 	website-id="13014"
-	page-id=""
+	page-id="activity06-numbers"
 ></hyvor-talk-comments>
