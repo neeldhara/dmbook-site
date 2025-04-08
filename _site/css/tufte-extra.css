@@ -5,7 +5,7 @@ body {
   font-size: 1.1em;
   line-height: 1.5;
   color: #111;
-  background-color: #fffff8;
+  background-color: #ffffff;
   max-width: 1400px;
   margin: 0 auto;
   counter-reset: sidenote-counter;
@@ -63,7 +63,7 @@ a:hover {
 
 /* Navigation */
 .navbar {
-  background-color: #fffff8 !important;
+  background-color: #ffffff !important;
   border-bottom: 1px solid #ddd;
 }
 

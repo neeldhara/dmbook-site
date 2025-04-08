@@ -76,12 +76,3 @@ footer a, footer a:hover {
   padding-top: 2rem;
 }
 
-/* Hide footnotes section */
-#quarto-appendix {
-  display: none !important;
-}
-
-/* Hide footnote backlinks */
-.footnote-back {
-  display: none !important;
-}
