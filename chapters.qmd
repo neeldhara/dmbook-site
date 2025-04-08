@@ -47,14 +47,14 @@ Available from: 16 June, 2025
 :::
 
 ::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
-<div style="background-color: #ede7f6; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+<div style="background-color:rgb(226, 218, 252); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
 ### [Numbers](/chapters/06-numbers.qmd) {.chapter-link data-available="2025-06-30"}
 Available from: 30 June, 2025
 </div>
 :::
 
 ::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
-<div style="background-color: #fce4ec; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+<div style="background-color:rgb(255, 230, 253); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
 ### [Graphs](/chapters/07-graphs.qmd) {.chapter-link data-available="2025-07-14"}
 Available from: 14 July, 2025
 </div>
