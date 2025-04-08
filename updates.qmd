@@ -1,0 +1,86 @@
+---
+title: "Updates"
+page-layout: full
+toc: false
+---
+
+### Updates
+
+<div id="subscription-container">
+  <form
+    id="subscription-form"
+    action="https://buttondown.com/api/emails/embed-subscribe/dmbook"
+    method="post"
+    class="embeddable-buttondown-form"
+    style="max-width: 400px; margin: 0; font-family: Arial, sans-serif;"
+  >
+    <label for="bd-email" style="display: block; margin-top: 15px;">Enter your email</label>
+    <input type="email" name="email" id="bd-email" required style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px;" />
+
+    <label for="full-name" style="display: block; margin-top: 15px;">Full Name</label>
+    <input type="text" name="metadata__full-name" id="full-name" required style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px;" />
+
+    <label for="affiliation" style="display: block; margin-top: 15px;">Affiliation</label>
+    <input type="text" name="metadata__affiliation" id="affiliation" required style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px;" />
+
+    <label for="type" style="display: block; margin-top: 15px;">I am...</label>
+    <select name="metadata__type" id="type" required style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; background-color: white;">
+      <option value="">Select an option</option>
+      <option value="a high school student">a high school student</option>
+      <option value="an undergraduate student">an undergraduate student</option>
+      <option value="a postgraduate student">a postgraduate student</option>
+      <option value="faculty">faculty</option>
+      <option value="an industry professional">an industry professional</option>
+      <option value="self-employed">self-employed</option>
+      <option value="other">other</option>
+    </select>
+
+    <label style="display: block; margin-top: 15px;">
+      <input type="checkbox" name="metadata__contrib" value="yes" style="margin-right: 5px;" />
+      My name and affiliation, as presented in this form, will be added to the list of contributors.
+    </label>
+
+    <input type="submit" value="Subscribe" style="width: 100%; padding: 10px; margin-top: 20px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;" />
+  </form>
+  ```{=html}
+  <div id="thank-you-message" style="display: none; max-width: 400px; margin: 0; font-family: Arial, sans-serif;">
+    <h3 style="color: #4CAF50;">Thank you for subscribing!</h3>
+    <p>Please check your email to confirm your subscription. You'll receive an email with a confirmation link that you need to click to complete the subscription process.</p>
+    <p>You'll receive notifications when new chapters become available.</p>
+  </div>
+  ```
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.getElementById('subscription-form');
+  const thankYouMessage = document.getElementById('thank-you-message');
+  
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Get form data
+    const formData = new FormData(form);
+    
+    // Submit the form data via fetch
+    fetch(form.action, {
+      method: 'POST',
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    .then(response => {
+      // Hide the form and show thank you message
+      form.style.display = 'none';
+      thankYouMessage.style.display = 'block';
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      // Still show thank you message even if there's an error
+      form.style.display = 'none';
+      thankYouMessage.style.display = 'block';
+    });
+  });
+});
+</script>

@@ -1,0 +1,151 @@
+/* Tufte-inspired styling */
+
+/* Typography */
+body {
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: #111;
+  background-color: #fffff8;
+  max-width: 1400px;
+  margin: 0 auto;
+  counter-reset: sidenote-counter;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Links - no underlines and no hover effects */
+a {
+  color: #6699cc; /* Pastel blue color */
+  text-decoration: none;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+a:hover {
+  color: #5588bb; /* Slightly darker shade for hover state */
+  border-bottom: none;
+}
+
+/* Cards styling with Tufte influence - no hover effects */
+.chapter-card, .activity-card {
+  border: none !important;
+  box-shadow: none !important;
+  transition: none;
+}
+
+.chapter-card:hover, .activity-card:hover {
+  transform: none;
+}
+
+.chapter-title, .activity-title {
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+/* Navigation */
+.navbar {
+  background-color: #fffff8 !important;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  border-bottom: none;
+}
+
+/* Sidenotes and margin notes */
+.sidenote, .marginnote {
+  float: right;
+  clear: right;
+  margin-right: -60%;
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  vertical-align: baseline;
+  position: relative;
+  color: #555;
+}
+
+.sidenote-number {
+  counter-increment: sidenote-counter;
+}
+
+.sidenote-number:after, .sidenote:before {
+  content: counter(sidenote-counter);
+  font-size: 0.7rem;
+  top: -0.5rem;
+  position: relative;
+}
+
+/* Custom callouts */
+.callout-game {
+  border-left: 5px solid #ff9e80;
+  background-color: #fff3e0;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.callout-trick {
+  border-left: 5px solid #80d8ff;
+  background-color: #e1f5fe;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.callout-history {
+  border-left: 5px solid #b388ff;
+  background-color: #f3e5f5;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Full-width layout */
+.container-fluid {
+  max-width: 1400px;
+  padding: 0 2rem;
+}
+
+/* Chapter-specific background colors for cards */
+div[style*="background-color: #ffebee"] a { color: #c62828; } /* Red */
+div[style*="background-color: #fff3e0"] a { color: #e65100; } /* Orange */
+div[style*="background-color: #fffde7"] a { color: #f9a825; } /* Yellow */
+div[style*="background-color: #e8f5e9"] a { color: #2e7d32; } /* Green */
+div[style*="background-color: #e3f2fd"] a { color: #0277bd; } /* Blue */
+div[style*="background-color: #ede7f6"] a { color: #4527a0; } /* Indigo */
+div[style*="background-color: #fce4ec"] a { color: #ad1457; } /* Violet/Pink */
+
+/* Card styling - no hover effects */
+div[style*="background-color"] {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: none;
+}
+
+div[style*="background-color"]:hover {
+  transform: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}

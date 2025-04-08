@@ -1,0 +1,87 @@
+/* css styles */
+
+/* Additional global styles */
+
+/* Set Heliotrope as the main body font */
+body, p, a, h1, h2, h3, h4, h5, h6, span {
+  font-family: 'Heliotrope', serif;
+  font-weight: normal;
+}
+
+/* Remove all link underlines and hover effects */
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  border-bottom: none;
+  transition: none;
+}
+
+/* Remove hover effects from all elements */
+*:hover {
+  transition: none !important;
+  transform: none !important;
+}
+
+/* Ensure navbar links have no underlines or hover effects */
+.navbar-nav .nav-link, 
+.navbar-nav .nav-link:hover, 
+.navbar-nav .nav-link:focus {
+  border-bottom: none;
+  text-decoration: none;
+}
+
+/* Center align the main menu */
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Remove me-auto class effect which pushes menu to the left */
+.navbar-nav.navbar-nav-scroll.me-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Remove underlines from tab links */
+.nav-tabs .nav-link,
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link.active {
+  border-bottom: none;
+  text-decoration: none;
+}
+
+/* Ensure no underlines in footer links */
+footer a, footer a:hover {
+  border-bottom: none;
+  text-decoration: none;
+}
+
+/* Hide page titles */
+.quarto-title, .title, h1.title, .quarto-title-block .quarto-title-banner {
+  display: none !important;
+}
+
+/* Hide the first h1 on each page (typically the title) */
+.content > h1:first-of-type {
+  display: none !important;
+}
+
+/* Add more top padding to compensate for hidden titles */
+.content {
+  padding-top: 2rem;
+}
+
+/* Hide footnotes section */
+#quarto-appendix {
+  display: none !important;
+}
+
+/* Hide footnote backlinks */
+.footnote-back {
+  display: none !important;
+}

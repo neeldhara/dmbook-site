@@ -1,0 +1,156 @@
+<style>
+  .chapter-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .tab-button.active {
+    background-color: #e0e0e0;
+    font-weight: 600;
+  }
+  
+  .chapter-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .chapter-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .chapter-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  }
+  
+  /* Pastel colors for chapter backgrounds */
+  .chapter-01 { background-color: #ffcdd2; } /* Red pastel */
+  .chapter-02 { background-color: #ffecb3; } /* Orange pastel */
+  .chapter-03 { background-color: #fff9c4; } /* Yellow pastel */
+  .chapter-04 { background-color: #c8e6c9; } /* Green pastel */
+  .chapter-05 { background-color: #b3e5fc; } /* Blue pastel */
+  .chapter-06 { background-color: #d1c4e9; } /* Indigo pastel */
+  .chapter-07 { background-color: #f8bbd0; } /* Violet pastel */
+  
+  .chapter-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .chapter-description {
+    flex-grow: 1;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .chapter-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+  }
+  
+  .journey-content, .pitstop-content {
+    display: none;
+  }
+  
+  .journey-content.active, .pitstop-content.active {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+</style>
+
+<div class="chapter-tabs">
+  <button class="tab-button active" onclick="showTab('journey')">Journey</button>
+  <button class="tab-button" onclick="showTab('pitstop')">Pitstops</button>
+</div>
+
+<div class="journey-content active">
+  <div class="chapter-cards-container">
+    <% for (const item of items) { %>
+      <% if (item.title.includes("[Journey]")) { %>
+        <% 
+          let chapterNum = "01";
+          if (item.path.match(/(\d+)/)) {
+            chapterNum = item.path.match(/(\d+)/)[0].padStart(2, '0');
+          }
+          const chapterClass = `chapter-${chapterNum}`;
+        %>
+        <a href="<%= item.path %>" class="chapter-link">
+          <div class="chapter-card <%= chapterClass %>" <%= metadataAttrs(item) %>>
+            <h3 class="chapter-title"><%= item.title.replace("[Journey] ", "") %></h3>
+            <% if (item.description) { %>
+              <p class="chapter-description"><%= item.description %></p>
+            <% } else { %>
+              <p class="chapter-description">Learn about <%= item.title.replace("[Journey] ", "") %> in this chapter.</p>
+            <% } %>
+          </div>
+        </a>
+      <% } %>
+    <% } %>
+  </div>
+</div>
+
+<div class="pitstop-content">
+  <div class="chapter-cards-container">
+    <% for (const item of items) { %>
+      <% if (item.title.includes("[Pitstop]")) { %>
+        <% 
+          let chapterNum = "01";
+          if (item.path.match(/(\d+)/)) {
+            chapterNum = item.path.match(/(\d+)/)[0].padStart(2, '0');
+          }
+          const chapterClass = `chapter-${chapterNum}`;
+        %>
+        <a href="<%= item.path %>" class="chapter-link">
+          <div class="chapter-card <%= chapterClass %>" <%= metadataAttrs(item) %>>
+            <h3 class="chapter-title"><%= item.title.replace("[Pitstop] ", "") %> Extras</h3>
+            <% if (item.description) { %>
+              <p class="chapter-description"><%= item.description %></p>
+            <% } else { %>
+              <p class="chapter-description">Additional exercises and material for <%= item.title.replace("[Pitstop] ", "") %>.</p>
+            <% } %>
+          </div>
+        </a>
+      <% } %>
+    <% } %>
+  </div>
+</div>
+
+<script>
+function showTab(tabName) {
+  // Update button states
+  document.querySelectorAll('.tab-button').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  document.querySelector(`.tab-button[onclick="showTab('${tabName}')"]`).classList.add('active');
+  
+  // Show the selected content
+  document.querySelectorAll('.journey-content, .pitstop-content').forEach(content => {
+    content.classList.remove('active');
+  });
+  document.querySelector(`.${tabName}-content`).classList.add('active');
+}
+</script>

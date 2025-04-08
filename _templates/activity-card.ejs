@@ -1,0 +1,79 @@
+```{=html}
+<style>
+  .activity-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .activity-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  }
+  
+  /* Same pastel colors for activities as chapters for consistency */
+  .activity-01 { background-color: #ffcdd2; } /* Red pastel */
+  .activity-02 { background-color: #ffecb3; } /* Orange pastel */
+  .activity-03 { background-color: #fff9c4; } /* Yellow pastel */
+  .activity-04 { background-color: #c8e6c9; } /* Green pastel */
+  .activity-05 { background-color: #b3e5fc; } /* Blue pastel */
+  .activity-06 { background-color: #d1c4e9; } /* Indigo pastel */
+  .activity-07 { background-color: #f8bbd0; } /* Violet pastel */
+  
+  .activity-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .activity-description {
+    flex-grow: 1;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .activity-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+  }
+  
+  .activity-emoji {
+    margin-right: 8px;
+  }
+</style>
+
+<div class="activity-cards-container">
+  <% for (const item of items) { %>
+    <% 
+      let chapterNum = "01";
+      if (item.path.match(/(\d+)/)) {
+        chapterNum = item.path.match(/(\d+)/)[0].padStart(2, '0');
+      }
+      const activityClass = `activity-${chapterNum}`;
+      const chapterName = item.title.replace("🛠️ ", "").trim();
+    %>
+    <a href="<%= item.path %>" class="activity-link">
+      <div class="activity-card <%= activityClass %>" <%= metadataAttrs(item) %>>
+        <h3 class="activity-title"><%= item.title %></h3>
+        <% if (item.description) { %>
+          <p class="activity-description"><%= item.description %></p>
+        <% } else { %>
+          <p class="activity-description">Practice exercises and interactive materials for <%= chapterName %>.</p>
+        <% } %>
+      </div>
+    </a>
+  <% } %>
+</div>

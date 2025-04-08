@@ -1,0 +1,117 @@
+---
+title: "Chapters"
+---
+
+### Chapters 
+
+On the chapter pages, as we go along, I will post a draft PDF + a summary of the main highlights. 
+
+::: {.panel-tabset}
+
+## 🛣️ Journey
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #ffebee; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [Foundations](/chapters/01-foundations.qmd) {.chapter-link data-available="2025-04-21"}
+Available from: 21 April, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #fff3e0; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [Proof](/chapters/02-proof.qmd) {.chapter-link data-available="2025-05-05"}
+Available from: 05 May, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #fffde7; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [Counting](/chapters/03-counting.qmd) {.chapter-link data-available="2025-05-19"}
+Available from: 19 May, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #e8f5e9; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [Uncertainty](/chapters/04-uncertainty.qmd) {.chapter-link data-available="2025-06-02"}
+Available from: 02 June, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #e3f2fd; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [Structures](/chapters/05-structures.qmd) {.chapter-link data-available="2025-06-16"}
+Available from: 16 June, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #ede7f6; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [Numbers](/chapters/06-numbers.qmd) {.chapter-link data-available="2025-06-30"}
+Available from: 30 June, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #fce4ec; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [Graphs](/chapters/07-graphs.qmd) {.chapter-link data-available="2025-07-14"}
+Available from: 14 July, 2025
+</div>
+:::
+:::
+
+## 🎁 Pitstops
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #ffebee; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [Extras: Foundations](/chapters/01-foundations-extras.qmd) {.chapter-link data-available="2025-04-28"}
+Available from: 28 April, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #fff3e0; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [Extras: Proof](/chapters/02-proof-extras.qmd) {.chapter-link data-available="2025-05-12"}
+Available from: 12 May, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #fffde7; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [Extras: Counting](/chapters/03-counting-extras.qmd) {.chapter-link data-available="2025-05-26"}
+Available from: 26 May, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #e8f5e9; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [Extras: Uncertainty](/chapters/04-uncertainty-extras.qmd) {.chapter-link data-available="2025-06-09"}
+Available from: 09 June, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #e3f2fd; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [Extras: Structures](/chapters/05-structures-extras.qmd) {.chapter-link data-available="2025-06-23"}
+Available from: 23 June, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #ede7f6; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [Extras: Numbers](/chapters/06-numbers-extras.qmd) {.chapter-link data-available="2025-07-07"}
+Available from: 07 July, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #fce4ec; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [Extras: Graphs](/chapters/07-graphs-extras.qmd) {.chapter-link data-available="2025-07-21"}
+Available from: 21 July, 2025
+</div>
+:::
+:::
+
+:::

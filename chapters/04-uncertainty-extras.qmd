@@ -1,0 +1,13 @@
+---
+title: "[Pitstop] Uncertainty"
+---
+
+# Uncertainty Extras
+
+Additional content and exercises for the Uncertainty chapter.
+
+<script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
+<hyvor-talk-comments
+	website-id="13014"
+	page-id=""
+></hyvor-talk-comments>

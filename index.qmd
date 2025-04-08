@@ -1,0 +1,18 @@
+---
+title: "Discrete Mathematics Companion Website"
+css: css/index-styles.css
+---
+
+Welcome to the companion website for the Discrete Mathematics textbook^[currently work in progress].
+
+[I](https://www.neeldhara.com) look forward to feedback on the book as I try to cobble together a first draft over summer. My motivation for writing this book is mainly that teaching _Discrete Mathematics_ at the undergraduate level --- and related graduate-level courses like Combinatorics and Graph Theory --- has been one of the most rewarding experiences I've had. 
+
+Discrete Mathematics at the undergraduate level is often taught with a dedicated tutorial slot. Over the years, I have had a lot of fun drawing inspiration from several sources to turn the tutorial sessions into hands-on activities. In particular, I've found that playing games, solving puzzles, discussing paradoxes, and performing card magic are engaging ways to revisit and apply ideas from the lectures.
+
+The topics of this course also offer a good opportunity to appreciate historical context: the development of many things we now take for granted, whether number systems or paradox-inducing axioms, came about over long periods of deliberations and debate. The role of mathematicians in ancient India in some of these themes is also a matter of intrigue and beauty. 
+
+Discrete Mathematics is often assigned to the semester where students are also introduced to some flavors of data structures and algorithms, which in turn usually has a lab component. I believe that with a little planning, it is possible to bring out synergies between these courses. 
+
+Through this book I hope to bring out the elements that have made DM one of my favorite courses to teach. I will be rolling out a chapter every week over summer, starting from the 21st of April. There are seven chapters, each in two parts: the first covers core material that would be suitable for roughly four lectures, and while the extras cover additional trivia and sometimes advanced material suitable for self-study. This companion website will also be used to host interactive demonstrations for some of the activities in the book. 
+
+Please drop your details on the [updates](updates.qmd) page to recieve an email notification when a new chapter is available. 
