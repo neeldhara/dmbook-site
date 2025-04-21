@@ -1,0 +1,83 @@
+---
+title: "BTS: Foundations"
+---
+
+::: {.callout-note appearance="minimal"}
+To participate in the discussion, please join the [Zulip community](https://dmbook.zulipchat.com/join/vntv532nhvexfidomkqsybwq/). The text below is reproduced from [this post](https://dmbook.zulipchat.com/#narrow/channel/499014-Ch1.2E-Foundations/topic/General.20Thoughts/near/513445986) and [this one](). 
+<br>However, if it's simpler, you are also welcome to leave your comments at the end of this page. Thanks!
+:::
+
+### The Proposed Narrative
+
+This chapter will have the following subsections (the order is not final yet):
+
+1. Sets
+2. Numbers
+3. Functions
+4. Relations
+5. Recurrences
+6. Logic
+7. Notes
+
+(Note: the last section is mostly references.)
+
+:::{.callout-tip appearance="minimal"}
+Instructor's note: this material should correspond to roughly six hours of instruction --- give or take --- spread across two weeks. About an hour per section should be workable as a rule of thumb, with appropriate choices made about what's to be left out. 
+:::
+
+---
+
+With sets, I plan to give a taste of the ZF axioms, even if not all of them. The current flow is the following:
+
+- define sets as most people do, as a well-defined collection of objects (the so-called axiom of unrestricted comprehension)
+- establish Russell's Paradox
+- restrict the construction of sets by providing context (the axiom of specification)
+- realize that we can't define anything now, because we need a set to define a set!
+- this motivates the 'empty set axiom'
+- we establish axiom of extension next (the equality of sets by the elements that contain them) to realize that with only the empty set, we are stuck with just the empty set :( --- note that if extension was not explicit we could have proliferated infinitely many copies of the empty set 😬
+
+At this point, there is a clear motivation for adding to the axiom toolkit some way of building new sets from existing ones, else we are stuck with the empty set! From here the narrative could go in one of two directions which I think are equally sensible:
+
+- introduce the power set axiom (declaring that the power set of a set is a set)
+- introduce union and pairing (this allows us to introduce the set that contains the empty set, in particular)
+
+Both pathways allow us to construct sets of size k for any natural number k, and indeed this hints at the construction of the naturals (although we still don't get the *set* of natural numbers without the infinity axiom). I am taking the first path because I think the notion of pairing is easy to trip on (I would very likely confuse it with the union).
+
+After power sets I do bring up unions and point out that we get intersections for free from specification and union. The narrative for this section almost ends here, although I am debating if this is already a good place to get into some of the rocky history of foundations, mostly drawing from the narratives carefully crafted in [these](https://www.youtube.com/watch?v=HeQX2HjkcNo) [videos](https://www.youtube.com/watch?v=_cr46G2K5Fo) by Veritasium, and borrowing some anecdotes from primary sources. One challenge about the historical aspect is that many parts of the narrative show up more in the other sections of this chapter, so I am debating between if I should chop up the history into small relevant chunks or if I should do it all at once at the end.
+
+The chapter in its current state has no serious attempt at analogies. I am currently exploring thinking through a couple of options:
+
+a) I am wondering if it is reasonable to compare sets to boxes that contain things (their elements), as is done often. This is helpful in explaining why $\emptyset$ and $\{\emptyset\}$ are not the same set, for example: a box that contains nothing vs a box that contains a box that contains nothing. However, the axiom of extension tells us that for any set $a$, the set $\{a,a\}$ is just the set $\{a\}$. So the box that contains two empty boxes, for example, is exactly the same as the box that contains one empty box. This feels rather odd and I am not sure I have an easy fix.
+
+b) I am really enjoying the garden analogy from *The Magic Garden Of George B And Other Logic Puzzles* by Raymond Smullyan. But it is a little too elaborate for a passing remark. I do wonder if it is reasonable to borrow the main ideas and present it as an extended exercise.
+
+With numbers, we are going to more or less pick up from where we left off with sets, and look into the construction of the naturals (and possibly also the rationals and reals), and spend some time going over representation and bases. Representing numbers with symbols is something we have taken for granted since kindergarten, so it will be a challenge to convey why it's somewhat mind-blowing that it can in fact be done. Here I do think a money analogy helps --- grouping coins and trading them for fewer coins of denominations,  etc. Overall number representation has a lot of fun (ancient) history and my main challenge will be to exercise restraint over what to cover. I would like to get into cardinality and infinity here, possibly describe a construction of the Cantor set (in elementary terms), and indeed I will bring up the axiom of infinity so we can define the set of natural numbers. However, I will postpone discussions about things like the Hilbert hotel to the next section...
+
+...which is about functions. Here the plan is to develop enough language to speak of the Shröder-Cantor-Bernstein theorem and work out some applications. We will also talk about Hilbert's hotel, and work through Cantor's diagonalization proofs and close with a discussion of well-ordering and the axiom of choice (my excuse for positioning this discussion here is that AC deals with "choice functions").
+
+Next up, relations: mainly here I want to talk about equivalence classes and emphasize that one can think of set theory as being the study of a binary relation $\in$ over sets. I might attempt a construction of the Vitali set here because it demonstrates (a) a surprising consequence of the axiom of choice and (b) employs the idea of equivalence classes in the construction. Other nice (preferably elemetnary) examples of applications of equivalence classes will be great!
+
+The section of recurrences is possibly a tangential move here, but it seems remiss to omit the topic altogether and I can't get it to fit in any of the other chapters. My bleak excuse here is that they are an important class of functions. I plan to borrow some examples from Concrete Mathematics (e.g, the Josephus problem), and talk about some other famous sequences like the Fibonacci and Hofstadter sequences. There seems to be a nice opportunity here to bring in ancient Indian math influences, so I plan to do that the best I can.
+
+We wind up with Logic, which is often its own chapter in a typical DM book. Here we will mostly talk about propositional logic and hint at other logics, but the emphasis will be on rules of inference and the notions of soundness and completeness. The chapter would feel incomplete (ahem) without mention of Godel's incompleteness theorems, so I will try to build up enough language to be able to state them.
+
+### Activities 
+
+So far, I plan to include:
+
+1. [Number guessing trick](https://www.nku.edu/~longa/shows/binary/binomialcards.pdf) with binary representations
+2. [21-card trick](https://www.youtube.com/watch?v=l7lP9y7Bb5g) to get a card to show up any place in the deck, using ternary representation
+3. [Black Vienna](https://boardgamegeek.com/boardgame/756/black-vienna) and variants for logic
+4. [Zendo](https://en.wikipedia.org/wiki/Zendo_(game)) for logic/sets
+5. [Eleusis](https://en.wikipedia.org/wiki/Eleusis_(card_game)) for logic/sets
+
+Please share any other activities/games you can think of, thanks!
+
+Suggestions welcome!
+
+
+<script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
+<hyvor-talk-comments
+	website-id="13014"
+	page-id="bts-foundations"
+></hyvor-talk-comments>

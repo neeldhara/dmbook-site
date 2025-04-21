@@ -15,7 +15,7 @@ Discrete Mathematics is often assigned to the semester where students are also i
 
 The Plan: I will be rolling out a chapter every week over summer, starting from the 21st of April. There are seven chapters, each in two parts: the first covers core material that would be suitable for roughly four lectures, and while the extras cover additional trivia and sometimes advanced material suitable for self-study. This companion website will also be used to host interactive demonstrations for some of the activities in the book. 
 
-Please drop your details on the [updates](updates.qmd) page to recieve an email notification when a new chapter is available. Feel free to send me an email at `neeldhara.misra@gmail.com` if you have any questions, or drop a comment below. Thanks for your interest in this project!
+Please drop your details on the [updates](updates.qmd) page to recieve an email notification when a new chapter is available. You can also join the [Zulip community](https://dmbook.zulipchat.com/join/vntv532nhvexfidomkqsybwq/) to participate in discussions around the chapters. Feel free to send me an email at `neeldhara.misra@gmail.com` if you have any questions, or drop a comment below. Thanks for your interest in this project :) 
 
 <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
 <hyvor-talk-comments

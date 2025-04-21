@@ -1,0 +1,59 @@
+---
+title: "BTS"
+---
+
+### Behind the scenes
+
+Before starting on a chapter I will try to summarize, very informally, the plan for it a week in advance. During the week I will look forward to suggestions and pointers based on the plan, and I'll do my best to incorporate them into the writing. Please join the [Zulip community](https://dmbook.zulipchat.com/join/vntv532nhvexfidomkqsybwq/) to participate in the discussions!
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #ffebee; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [BTS: Foundations](/bts/01-foundations/index.qmd) {.chapter-link data-available="2025-04-21"}
+Available from: 21 April, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #fff3e0; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [BTS: Proof](/bts/02-proof/index.qmd) {.chapter-link data-available="2025-04-28"}
+Available from: 28 April, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #fffde7; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [BTS: Counting](/bts/03-counting/index.qmd) {.chapter-link data-available="2025-05-05"}
+Available from: 05 May, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #e8f5e9; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [BTS: Uncertainty](/bts/04-uncertainty/index.qmd) {.chapter-link data-available="2025-05-12"}
+Available from: 12 May, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color: #e3f2fd; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [BTS: Structures](/bts/05-structures/index.qmd) {.chapter-link data-available="2025-05-19"}
+Available from: 19 May, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color:rgb(226, 218, 252); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [BTS: Numbers](/bts/06-numbers/index.qmd) {.chapter-link data-available="2025-05-26"}
+Available from: 26 May, 2025
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6 .g-col-xl-4}
+<div style="background-color:rgb(255, 230, 253); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+### [BTS: Graphs](/bts/07-graphs/index.qmd) {.chapter-link data-available="2025-06-02"}
+Available from: 02 June, 2025
+</div>
+:::
+:::
+

@@ -11,6 +11,8 @@ website:
         text: Chapters
       - href: activities.qmd
         text: Activities
+      - href: bts.qmd
+        text: BTS
       - href: updates.qmd
         text: Updates
       - href: contrib.qmd
@@ -31,7 +33,7 @@ format:
     title-block-style: none
     include-in-header:
       text: |
-        <script src="js/chapter-links.js"></script>
+        <script src="/js/chapter-links.js"></script>
         <!-- Fathom - beautiful, simple website analytics -->
         <script src="https://cdn.usefathom.com/script.js" data-site="ZMMQPFIX" defer></script>
         <!-- / Fathom -->
